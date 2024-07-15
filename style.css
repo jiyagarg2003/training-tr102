@@ -1,0 +1,228 @@
+<style>
+		.body 
+		{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin:0px;
+            padding:0px;
+        }
+        .container
+		{
+			height:auto;
+			width:100%;
+			text-align:center;
+			border: 1px solid black;
+		}
+		.header{
+			height:100px;
+			width:100%;
+			display:flex;
+			justify-content:space-between;
+			color:#135153;
+			background: linear-gradient(to left, #8fd6cc, #eeebe4);
+			font-weight:400;
+		}
+		.header h1{
+			margin:0px;
+			padding-top:10px;
+			font-size:40px;
+		}
+		.header h3{
+			margin-top:0px;
+			font-weight:400;
+			font-size:20px;
+		}
+		.header img{
+			height:100px;
+		}
+		.nav{
+			height:50px;
+			width:100%;
+			background: linear-gradient(to right, #21535a, #0f848d);
+            color: #fff;
+			line-height:50px;
+			display:flex;
+			justify-content:start;
+			border:1px solid white;
+		}
+		.footer{
+			height:90px;
+			width:100%;
+			background: linear-gradient(to left, #8fd6cc, #eeebe4);
+			font-size:30px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.subnav{
+			height:50px;
+			width:200px;
+			border-right:1px solid white;
+			line-height:50px;
+		}
+		.subnav a {
+			text-decoration:none;
+			color:white;
+		}
+		.footer a {
+			text-decoration:none;
+			color:#0f848d;
+		}
+		.content button a:hover ,.content a
+		{
+			text-decoration:none;
+			color:black;
+		}
+		.content{
+			height:400px;
+			width:100%;
+			border-right:1px solid white;
+			background: linear-gradient(to right, #21535a, #0f848d);
+			display:flex;
+			flex-wrap:wrap;
+			flex-direction: row;
+			align-items:center;
+			justify-content:center;
+		}
+		.image {
+			height:70%;
+			width:30%;
+		}
+		.image img {
+			height:280px;
+			width:280px;
+			margin:auto;
+			border:1px solid white;
+		}
+		.text{
+			height:40%;
+			width:50%;
+			color: #0f848d;
+			border:1px solid white;
+			background: linear-gradient(to left, #8fd6cc, #eeebe4);
+			padding:20px;
+			font-size:20px;
+		}
+		 .subnav:hover {
+            transform: translateY(-5px);
+			 background-color:#208c90;
+			box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+		.icon.linkedin:hover {
+		  color: #0077B5; 
+		  font-size:35px;
+		}
+
+		.icon.email:hover {
+		  color: #ea4335; 
+		  font-size:35px;
+		}
+
+		.icon.github:hover {
+		  color: grey; 
+		  font-size:35px;
+		}
+		.icons{
+			padding-right:20px;
+		}
+		@media screen and (max-width:970px)and (min-width:450px)
+		{
+            .header, .info, .nav, .subnav, .content, .footer, .text
+			{
+				height:auto;
+			}
+			.image{
+			height:250px;
+			width:80%;
+			align:center;
+			transform:skew(0deg);
+			margin-bottom:10px;
+			margin-top:10px;
+			}
+			.image img{
+			height:250px;
+			width:auto;
+			align:center;
+			transform:skew(0deg);
+			}
+			.text{
+				margin-bottom:10px;
+				transform:skew(0deg);
+			}
+			.footer{
+				padding-bottom:20px;
+			}
+        }
+		@media screen and (max-width:940px)and (min-width:440px)
+		{
+			.image img{
+			height:250px;
+			width:300px;
+			align:center;
+			transform:skew(0deg);
+			}
+		}
+		@media screen and (max-width:450px)
+		{
+			.header, .info
+			{
+				height:auto;
+				flex-wrap:wrap;
+				flex-direction:column;
+			}
+			.footer
+			{
+				height:auto;
+				padding-top:10px;
+				flex-direction:row;
+			}
+
+            .nav, .subnav
+			{
+				height:auto;
+				flex-wrap:wrap;
+				flex-direction:column;
+				border-bottom:1px solid white;
+				border-right:0px;
+				justify-content:center;
+				align-items:center;
+				margin:0px;
+				padding:0px;
+				width:100%;
+			}
+			.content{
+				padding-top:20px;
+				height:auto;
+				flex-wrap:wrap;
+				flex-direction:column;
+				border-right:0px;
+				justify-content:center;
+				align-items:center;
+				padding-bottom:20px;
+			}
+			.header{
+				padding-top:10px;
+			}
+			.footer{
+				padding-bottom:20px;
+			}
+			.image{
+			height:auto;
+			width:80%;
+			align:center;
+			transform:skew(0deg);
+			}
+			.image:hover{
+				transform: translateY(-5px);
+			}
+			.image img{
+			height:auto;
+			width:80%;
+			align:center;
+			transform:skew(0deg);
+			}
+			.text{
+				margin-top:20px;
+				transform:skew(0deg);
+			}
+        }
+</style>
