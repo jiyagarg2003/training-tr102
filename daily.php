@@ -164,7 +164,7 @@
 			<div></div>
 		</div>
 		<div class="nav">
-			<div class="subnav"><a href="index.php">HOME</a></div>
+			<div class="subnav"><a href="index.html">HOME</a></div>
 			<div class="subnav"><a href="daily.php">DAILY DIARY</a></div>
 			<div class="subnav"><a href="#">REPORT</a></div>
 			<div class="subnav"><a href="#">PROJECT</a></div>
