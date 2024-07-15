@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daily diary</title>
+    <style>
+        .body 
+		{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin:0px;
+            padding:0px;
+        }
+        .container
+		{
+			height:auto;
+			width:100%;
+			text-align:center;
+			border: 1px solid black;
+			background: linear-gradient(to left, #8fd6cc, #eeebe4);
+		}
+		.header{
+			height:100px;
+			width:100%;
+			display:flex;
+			justify-content:space-between;
+			color:#135153;
+			background: linear-gradient(to left, #8fd6cc, #eeebe4);
+			font-weight:400;
+			flex-wrap:wrap;
+		}
+		.header h1{
+			margin:0px;
+			padding-top:10px;
+			font-size:40px;
+		}
+		.header h3{
+			margin-top:0px;
+			font-weight:400;
+			font-size:20px;
+		}
+		.header img{
+			height:100px;
+		}
+		.nav{
+			height:50px;
+			width:100%;
+			background: linear-gradient(to right, #21535a, #0f848d);
+            color: #fff;
+			line-height:50px;
+			display:flex;
+			justify-content:start;
+			border:1px solid white;
+			
+		}
+		.footer{
+			height:90px;
+			width:100%;
+			background: linear-gradient(to left, #8fd6cc, #eeebe4);
+			padding-top:10px;
+			text-align:center;
+		}
+		.subnav{
+			height:50px;
+			width:200px;
+			border-right:1px solid white;
+			line-height:50px;
+		}
+		.subnav a {
+			text-decoration:none;
+			color:white;
+		}
+		.content button a:hover ,.content a
+		{
+			text-decoration:none;
+			color:black;
+		}
+		.content{
+			height:200px;
+			width:100%;
+			border-right:1px solid white;
+			line-height:500px;
+			background: linear-gradient(to right, #21535a, #0f848d);
+			display:flex;
+			flex-wrap:wrap;
+			flex-direction: row;
+			align-items:center;
+			justify-content:center;
+		}
+		.content button {
+            background-color: #208c90;
+            color: black;
+            padding: 10px 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 5px 25px 5px 5px;
+			height:50px;
+			width:100px;
+			text-transform:uppercase;
+			font-weight:bold;
+        }
+        .content button:hover {
+            background-color: #d5e5de;
+			color:black;
+			text-decoration:none;
+        }
+		 .subnav:hover {
+            transform: translateY(-5px);
+			 background-color:#208c90;
+			box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+		@media screen and (max-width:940px)and (min-width:450px)
+		{
+            .header, .info, .nav, .subnav, .content, .footer
+			{
+				height:auto;
+			}
+        }
+		@media screen and (max-width:450px)
+		{
+			.header, .info, .footer
+			{
+				height:auto;
+				flex-wrap:wrap;
+				flex-direction:column;
+			}
+            .nav, .subnav
+			{
+				height:auto;
+				flex-wrap:wrap;
+				flex-direction:column;
+				border-bottom:1px solid white;
+				border-right:0px;
+				justify-content:center;
+				align-items:center;
+				margin:0px;
+				padding:0px;
+				width:100%;
+			}
+			.content{
+				padding-top:20px;
+				height:auto;
+				padding-bottom:20px;
+			}
+			.header{
+				padding-top:10px;
+			}
+			.footer{
+				padding-bottom:20px;
+			}
+        }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div><img src="gndecLogo.png"></div>
+			<div class="info">
+				 <h1>Training TR-102</h1>
+				 <h3>4 Week training at HB Infotech Solutions</h3>
+			</div>
+			<div></div>
+		</div>
+		<div class="nav">
+			<div class="subnav"><a href="index.html">HOME</a></div>
+			<div class="subnav"><a href="daily.html">DAILY DIARY</a></div>
+			<div class="subnav"><a href="#">REPORT</a></div>
+			<div class="subnav"><a href="#">PROJECT</a></div>
+		</div>
+		<div class="content">
+				<button><a href="week1.html">week1</a></button>
+				<button><a href="week2.html">week2</a></button>
+				<button><a href="week3.html">week3</a></button>
+				<button><a href="week4.html">week4</a></button>
+				<button><a href="week5.html">week5</a></button>
+		</div>
+		<div class="footer">
+			 <h2>By Jiya Garg<br> Guru Nanak Dev Engineering College Ludhiana</h2>
+		</div> 
+	</div>
+</body>
+</html>
