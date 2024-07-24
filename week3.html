@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training TR-102 Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            background-color:WHITE;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        header {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #000000, #434343);
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 10px 10px 0 0;
+        }
+        header img {
+            height: 50px;
+            margin: 5px 0;
+            max-width: 100%;
+        }
+        header .home-button {
+            background-color: #3c566f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        header .home-button:hover {
+            background-color: #000000;
+        }
+        section
+		{
+			text-align:center;
+			
+		}
+        .pdf-container {
+            text-align: center;
+            margin-top:20px ;
+        }
+        .pdf-container iframe {
+            width: 90%;
+            height: auto;
+            border: none;
+			padding:10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+			text-align: center;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: linear-gradient(to right, #434343, #000000);
+            color: #fff;
+            border-radius: 0 0 10px 10px;
+        }
+        footer a {
+            color:white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) 
+            header .home-button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+            header img {
+                height: 40px;
+            }
+            .pdf-container iframe {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+			<img src="gndecLogo.png">
+			<a href="daily.html" class="home-button">Daily Diary</a>
+        </header>
+        <section>
+			 <h1>Training TR-102</h1>
+            <p>By JIYA GARG, URN 2104131 <br> Guru Nanak Dev Engineering College Ludhiana</p>
+            <h2>4 Week training at HB Infotech Solutions</h2>
+		</section>
+		<section>
+			 <div class="pdf-container">
+                <iframe src="https://jiyagarg2003.github.io/training-tr102/week3.pdf"></iframe>
+            </div>
+		</section>
+        <footer>
+           <a href="https://www.linkedin.com/in/jiya-garg-11aug/"> &copy; JIYA GARG</a>
+        </footer>
+    </div>
+    
+</body>
+</html>
